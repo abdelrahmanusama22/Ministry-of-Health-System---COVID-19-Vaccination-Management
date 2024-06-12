@@ -87,6 +87,21 @@ Contains the main method to test and demonstrate the functionality of the system
 - `fullyVaccinatedPersons()`: Counts and displays the number of fully vaccinated persons.
 - `displayData()`: Displays all citizens and their information.
 - `saveTofile()`: Saves all citizen data to a file.
+  ## Features
+- Add Citizens: Add new citizens to the system.
+- Remove Citizens: Remove existing citizens from the system.
+- Add Doses: Record vaccination doses for citizens.
+- Display Data: Display information about all citizens and their vaccination status.
+- Fully Vaccinated Count: Display the number of fully vaccinated citizens.
+- Save to File: Save all data to a text file.
+
+## Notes
+- The system assumes that a citizen is fully vaccinated if they have received at least two doses.
+- The saveTofile method saves the data to a file named Abdelrahman Usama.txt.
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
 
 ## Usage Example
 
@@ -124,17 +139,3 @@ public class Test {
     }
 }
 
-## Features
-- Add Citizens: Add new citizens to the system.
-- Remove Citizens: Remove existing citizens from the system.
-- Add Doses: Record vaccination doses for citizens.
-- Display Data: Display information about all citizens and their vaccination status.
-- Fully Vaccinated Count: Display the number of fully vaccinated citizens.
-- Save to File: Save all data to a text file.
-
-## Notes
-- The system assumes that a citizen is fully vaccinated if they have received at least two doses.
-- The saveTofile method saves the data to a file named Abdelrahman Usama.txt.
-
-## License
-This project is licensed under the MIT License. See the LICENSE file for details.
